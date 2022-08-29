@@ -60,4 +60,4 @@ declare global {
 
 declare function chaiHttp(chai: any, utils: any): void;
 
-export = chaiHttp;
+export {chaiHttp};
